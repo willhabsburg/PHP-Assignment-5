@@ -1,0 +1,35 @@
+/* William Habsburg
+   000869622
+   Assignment 5 css.css file
+*/
+
+/* Some default settings */
+* {
+ margin:0;
+ border:0;
+ padding:0;
+ text-decoration:none;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+/* command class for the links */
+.command {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+/* "Add random data" button should be on the right margin */
+#random {
+    float: right;
+}
+
+/* Set spacing for these buttons */
+#addanother, #clearall {
+    margin-left: 2em;
+}
+
+/* Set justification for currency */
+.pushRight {
+    text-align: right;
+}
